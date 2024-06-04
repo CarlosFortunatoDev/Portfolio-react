@@ -7,7 +7,7 @@ export function About(){
             <span className="mr-2 font-headline text-3xl">Sobre</span>
             <span className="font-handwriting text-4xl">Mim</span>
           </h2>
-          <p>
+          <p className="relative text-sm text-gray-600">
           Sou um entusiasta da tecnologia e apaixonado por novos desafios. Tenho habilidades em programação, versionamento de código, metodologia ágil e estou ansioso para aprender e contribuir com a equipe. Já estou de malas prontas para voar nesse mundo de oportunidades que é a Embraer.
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40"></div>
