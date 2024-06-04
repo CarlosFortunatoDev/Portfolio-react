@@ -12,7 +12,7 @@ export function Hero(){
           </h1>
           <h2 className="font-semibold flex items-center gap-2 text-center md:text-left">
             <div className="h-1 w-12 rounded-full bg-blue-800"/>
-            Aspirante a Dev React.js e Python
+            Futuro Dev React.js e Python
           </h2>
           <p className="text-gray-400 my-6 text-center md:text-left">
             Dedicado ao desenvolvimento de interfaces interativas e dinâmicas com React.js, aliado à criação de automações eficientes usando Python. Transformando a experiência do usuário, otimizando processos e sempre disposto à aprender cada vez mais.
