@@ -3,7 +3,7 @@ import { Hero } from "./assets/components/Hero"
 import { Services } from "./assets/components/Services"
 import { Projects } from "./assets/components/Projects"
 import { Skills } from "./assets/components/Skills"
-import { Testimonials } from "./assets/components/Testimonials"
+import { Pillar } from "./assets/components/Pillar "
 import { Contact } from "./assets/components/Contact"
 
 import './App.css'
@@ -16,7 +16,7 @@ function App() {
       <Services />
       <Projects />
       <Skills />
-      <Testimonials />
+      <Pillar />
       <Contact />
     </>
   )
