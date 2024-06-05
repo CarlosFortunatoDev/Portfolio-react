@@ -34,7 +34,7 @@ export function About(){
                     </tr>
                     <tr>
                       <td className="font-headline font-bold uppercase text-blue-900">Email:</td>
-                      <td><a href="mailto:carlosfortunatodev@gmail.com" className="underline hover:text-blue-900">carlosfortunatodev@gmail</a></td>
+                      <td><a href="mailto:carlosfortunatodev@gmail.com" className="underline hover:text-blue-900">carlosfortunatodev</a></td>
                     </tr>
                     <tr>
                       <td className="font-headline font-bold uppercase text-blue-900">Endereço:</td>

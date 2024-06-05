@@ -3,38 +3,38 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 export function Projects(){
   const projects = [
     {
-      title: 'Projeto 1',
-      description: 'Descrição do projeto 1',
-      image: "",
+      title: 'Automação de Cadastro',
+      description: 'Cadastro de aviões em site através de um bot consumindo planilha Excel com a biblioteca pyautogui.',
+      image: "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "#",
       colSpan: "col-span-1"
     },
     {
-      title: 'Projeto 2',
-      description: 'Descrição do projeto 2',
-      image: "",
-      link: "#",
+      title: 'Thalita Leal Semi Joias',
+      description: 'Controle de Estoque, Vendas, Compras, Funil de Vendas e Previsão Forquest.',
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://lookerstudio.google.com/u/1/reporting/a1097304-2de6-4e0f-9722-b4fb51d4c55d/page/9vvjD",
       colSpan: "col-span-1 md:col-span-2"
     },
     {
-      title: 'Projeto 3',
-      description: 'Descrição do projeto 3',
-      image: "",
+      title: 'Jogo de Ping-Pong com Javascript Vanilla.',
+      description: 'Projeto de um jogo de ping-pong. Construído com os três pilares de desenvolvimento web.',
+      image: "https://images.unsplash.com/photo-1624936188350-883a61a44116?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "#",
       colSpan: "col-span-1"
     },
     {
-    title: 'Projeto 4',
-    description: 'Descrição do projeto 4',
-    image: "",
+    title: 'Todo List',
+    description: 'Projeto feito com React, solidificando o CRUD',
+    image: "https://media.istockphoto.com/id/1460885503/pt/foto/project-acceptance-and-quality-assurance-concept-businessman-tick-correct-sign-mark-for.jpg?s=2048x2048&w=is&k=20&c=VjHsR5IJzG8o5ADv-FRcjHx_R9UAOPaWvIApGP6xHuU=",
     link: "#",
     colSpan: "col-span-1"
     },
     {
-      title: 'Projeto 5',
-      description: 'Descrição do projeto 5',
-      image: "",
-      link: "#",
+      title: 'Minhas Anotações',
+      description: 'Todas minhas anotações documentadas que sempre me ajudam no dia a dia.',
+      image: "https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://www.notion.so/Anota-es-1698770103394e16a4804b0409d56dc1",
       colSpan: "col-span-1"
     },
   ]
@@ -49,7 +49,7 @@ export function Projects(){
               <span className="font-handwriting text-4xl">Portfólio</span>
             </h2>
             <p className="relative text-sm text-gray-400">
-              Sou um entusiasta da tecnologia e apaixonado por novos desafios. Tenho habilidades em programação, versionamento de código, metodologia ágil e estou ansioso para aprender e contribuir com a equipe. Já estou de malas prontas para voar nesse mundo de oportunidades que é a Embraer.
+            Em meus projetos e portfólio, você encontrará aplicações web dinâmicas feitas com React, scripts de automação em Python que aumentam a eficiência, e dashboards em Looker Studio que transformam dados complexos em insights claros. Esses trabalhos refletem meu compromisso com a qualidade e a inovação, valores essenciais para a Embraer.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10"></div>
         </div>
@@ -60,11 +60,11 @@ export function Projects(){
               key={`project-${index}`}
               style={{backgroundImage: `url('${project.image}')`}}>
                 <div className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
-                  <h4 className="font-headline text-lg font-semibold">
+                  <h4 className="text-center font-headline text-lg font-semibold">
                     {project.title}
                   </h4>
-                  <p className="mb-4 text-sm">{project.description}</p>
-                  <a href="#" target="_blank">
+                  <p className="mb-4 text-sm p-3 text-center">{project.description}</p>
+                  <a href={project.link} target="_blank">
                     <HiArrowTopRightOnSquare className="h-6 w-6"/>
                   </a>
                 </div>
