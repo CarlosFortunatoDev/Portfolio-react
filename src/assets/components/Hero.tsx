@@ -20,7 +20,7 @@ export function Hero(){
           <div className="flex items-center justify-center md:justify-start gap-2">
             <a href="#" className="underline font-bold text-white">Fale comigo</a>
             <span className="italic text-gray-500">ou</span>
-            <a href="src\assets\pdf\Currículo - Carlos Eduardo Fortunato.pdf" download={"Currículo - Carlos Eduardo Fortunato.pdf"} className="button text-gray-600 hover:text-gray-900 flex items-center gap-2">
+            <a href="pdf/Currículo - Carlos Eduardo Fortunato.pdf" download={"Currículo - Carlos Eduardo Fortunato.pdf"} className="button text-gray-600 hover:text-gray-900 flex items-center gap-2">
             <HiDownload />
             Baixe meu currículo
             </a>
