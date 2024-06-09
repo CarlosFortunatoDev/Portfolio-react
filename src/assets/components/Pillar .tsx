@@ -26,8 +26,8 @@ export function Pillar(){
             <figcaption className="flex items-center justify-center gap-2">
               <img
                 className="h-6 w-6 rounded-full"
-                src="https://scontent.fsjk6-1.fna.fbcdn.net/v/t39.30808-6/252515062_1662899723913163_7162787078124451908_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEpPDLMYIQuNHoqwbreF1kllEA2F15wd_mUQDYXXnB3-SOLKO8h8cmjTv1J4Mnvw8hH2BydN77xS_6VawWqvwWl&_nc_ohc=iaetbcgfDpQQ7kNvgEdQXHC&_nc_ht=scontent.fsjk6-1.fna&oh=00_AYBll3H4Kt4cOqT1UzJvRrBiz8gla2O9QgHLLR5UQPslLQ&oe=66644D1E"
-                alt="Edilaine"
+                src="images/foto-portfolio.jpg"
+                alt="Carlos Fortunato"
               />
               <div className="flex items-center divide-x-2 divide-gray-200">
                 <div className="pr-3 font-medium text-gray-900">Carlos Fortunato</div>

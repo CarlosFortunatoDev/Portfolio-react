@@ -60,7 +60,7 @@ export function About(){
                 </table>
               </p>
             </div>
-            <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(https://scontent.fsjk6-1.fna.fbcdn.net/v/t39.30808-6/252515062_1662899723913163_7162787078124451908_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEpPDLMYIQuNHoqwbreF1kllEA2F15wd_mUQDYXXnB3-SOLKO8h8cmjTv1J4Mnvw8hH2BydN77xS_6VawWqvwWl&_nc_ohc=iaetbcgfDpQQ7kNvgEdQXHC&_nc_ht=scontent.fsjk6-1.fna&oh=00_AYBll3H4Kt4cOqT1UzJvRrBiz8gla2O9QgHLLR5UQPslLQ&oe=66644D1E)] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+            <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url('/images/foto-portfolio.jpg')] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
           </div>
 
         </div>
