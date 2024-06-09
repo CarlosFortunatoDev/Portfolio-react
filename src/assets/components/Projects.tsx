@@ -4,9 +4,23 @@ export function Projects(){
   const projects = [
     {
       title: 'Automação de Cadastro',
-      description: 'Cadastro de aviões em site através de um bot consumindo planilha Excel com a biblioteca pyautogui.',
+      description: 'Automação de cadastros de produtos consumindo planilhas, utilizando a biblioteca PyAutoGui e OpenPyXl.',
       image: "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "#",
+      link: "https://github.com/CarlosFortunatoDev/Automacao-cadastro-produto",
+      colSpan: "col-span-1"
+    },
+    {
+      title: 'API Github',
+      description: 'Projeto desenvolvido com React para fazer buscas de usuários consumindo API do Github.',
+      image: "https://images.unsplash.com/photo-1630514969818-94aefc42ec47?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://github.com/CarlosFortunatoDev/api-github-dev",
+      colSpan: "col-span-1 md:col-span-2"
+    },
+    {
+      title: 'Password Generator',
+      description: 'Gerador de senhas automático com níveis de segurança. Desenvolvido com HTML5, CSS3 e JavaScript Vanilla.',
+      image: "https://images.unsplash.com/photo-1633265486064-086b219458ec?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "https://carlosfortunatodev.github.io/Password-Generator/",
       colSpan: "col-span-1"
     },
     {
@@ -14,21 +28,7 @@ export function Projects(){
       description: 'Controle de Estoque, Vendas, Compras, Funil de Vendas e Previsão Forquest.',
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "https://lookerstudio.google.com/u/1/reporting/a1097304-2de6-4e0f-9722-b4fb51d4c55d/page/9vvjD",
-      colSpan: "col-span-1 md:col-span-2"
-    },
-    {
-      title: 'Jogo de Ping-Pong com Javascript Vanilla.',
-      description: 'Projeto de um jogo de ping-pong. Construído com os três pilares de desenvolvimento web.',
-      image: "https://images.unsplash.com/photo-1624936188350-883a61a44116?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "#",
       colSpan: "col-span-1"
-    },
-    {
-    title: 'Todo List',
-    description: 'Projeto feito com React, solidificando o CRUD',
-    image: "https://media.istockphoto.com/id/1460885503/pt/foto/project-acceptance-and-quality-assurance-concept-businessman-tick-correct-sign-mark-for.jpg?s=2048x2048&w=is&k=20&c=VjHsR5IJzG8o5ADv-FRcjHx_R9UAOPaWvIApGP6xHuU=",
-    link: "#",
-    colSpan: "col-span-1"
     },
     {
       title: 'Minhas Anotações',

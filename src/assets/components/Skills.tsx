@@ -27,7 +27,7 @@ export function Skills(){
     {
       name: "React.js",
       icon: "images/react.svg",
-      level: 60,
+      level: 70,
     },
     {
       name: "Python",

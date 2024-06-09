@@ -18,7 +18,7 @@ export function Hero(){
             Dedicado ao desenvolvimento de interfaces interativas e dinâmicas com React.js, aliado à criação de automações eficientes usando Python. Transformando a experiência do usuário, otimizando processos e sempre disposto à aprender cada vez mais.
           </p>
           <div className="flex items-center justify-center md:justify-start gap-2">
-            <a href="#" className="underline font-bold text-white">Fale comigo</a>
+            <a href="#contact" className="underline font-bold text-white">Fale comigo</a>
             <span className="italic text-gray-500">ou</span>
             <a href="pdf/Currículo - Carlos Eduardo Fortunato.pdf" download={"Currículo - Carlos Eduardo Fortunato.pdf"} className="button text-gray-600 hover:text-gray-900 flex items-center gap-2">
             <HiDownload />
